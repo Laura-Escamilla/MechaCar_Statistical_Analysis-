@@ -14,21 +14,21 @@ Using our knowledge of R, we designed a linear model that predicts the mpg of Me
 
 *	**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-According to the results we can see above, ground clearance provide a non-random amount of variance.
+  According to the results we can see above, ground clearance provide a non-random amount of          variance.
 
 *	**Is the slope of the linear model considered to be zero? Why or why not?**
 
-The p-value is 6.712e -11 so, the slope is not equal to zero.
+  The p-value is 6.712e -11 so, the slope is not equal to zero.
 
 *	**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
-The Multiple R-squared value is 0.7119, that means that the model predict at a 71% rate. This can be interpreted as a not very effective model but we can find out more variables and factors to improve the model.
+  The Multiple R-squared value is 0.7119, that means that the model predict at a 71% rate.  This can be interpreted as a not very effective model but we can find out more variables and factors to improve the model.
 
 ### 2. Summary Statistics on Suspension Coils
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-To address the question, we wrote the code to get the following data that includes the summary (mean, median, variance and standard deviation) for the total lots and for each lot, as we can see next:
+  To address the question, we wrote the code to get the following data that includes the summary (mean, median, variance and standard deviation) for the total lots and for each lot, as we can see next:
 
 <img width="442" alt="Total_summary_1" src="https://user-images.githubusercontent.com/113747210/217675749-4c901eac-7726-4b5f-bbd8-0d474bf9f5af.png">
 
@@ -61,33 +61,24 @@ This tell us that the Lot 3 is the one with a significant difference, has the lo
 ### 4. Study Design: MechaCar vs Competition
 With our knowledge of R, we designed a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. The goal of this statistical study is to gather information about different metrics that a costumer can be interested when they are deciding which car to buy. With this data we can compare how is mecha car in relation to its competitors.
 
-o	What metric or metrics are you going to test?
+* **What metric or metrics are you going to test?**
 
--	Current price
--	Safety Features
--	MPG (Fuel efficiency)
--	Maintenance cost
--	Resale price
+  -	Current price
+  -	Safety Features
+  -	MPG (Fuel efficiency)
+  -	Maintenance cost
+  -	Resale price
 
-* What is the null hypothesis or alternative hypothesis?
+* **What is the null hypothesis or alternative hypothesis?**
 
 Null Hypothesis: The price of MechaCar is adequate based on the characteristics offered to its consumers.
 
-* What statistical test would you use to test the hypothesis? And why?
+* **What statistical test would you use to test the hypothesis? And why?**
 
 We could use Multiple Linear Regression
 
-* What data is needed to run the statistical test?
+* **What data is needed to run the statistical test?**
 
 We would need to collect the data about sale price, mpg, safety features, maintenance costs, resale prices about the MechaCar direct competitors, which means, the cars in the market with similar characteristics and range of price.
-
-
-
-
-
-
-
-
-
 
 
