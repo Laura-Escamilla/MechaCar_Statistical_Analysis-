@@ -14,7 +14,7 @@ Using our knowledge of R, we designed a linear model that predicts the mpg of Me
 
 *	**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-  According to the results we can see above, ground clearance provide a non-random amount of          variance.
+  According to the results we can see above, ground clearance provide a non-random amount of                     variance.
 
 *	**Is the slope of the linear model considered to be zero? Why or why not?**
 
