@@ -75,7 +75,7 @@ Null Hypothesis: The price of MechaCar is adequate based on the characteristics 
 
 * **What statistical test would you use to test the hypothesis? And why?**
 
-We could use Multiple Linear Regression
+We could use Multiple Linear Regression because is a regression model that estimates the relationship between a quantitative dependent variable (that would the sales price) and two or more independent variables using a straight line.
 
 * **What data is needed to run the statistical test?**
 
